@@ -47,6 +47,6 @@ function certo(id) {
     if(document.getElementById(id).style.backgroundColor == color.innerHTML) {
         window.location = "index.html";
     } else {
-        alert("Que pena, tente novamente ):");
+        document.getElementById(id).style.backgroundColor = '#f9e6fd';
     }
 }
