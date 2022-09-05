@@ -45,10 +45,8 @@ if(escolha == 'cor1'){
 function certo(id) {
 
     if(document.getElementById(id).style.backgroundColor == color.innerHTML) {
-        alert("Parabéns, você acertou a cor!");
         window.location = "index.html";
     } else {
         alert("Que pena, tente novamente ):");
-        window.location = "index.html";
     }
 }
