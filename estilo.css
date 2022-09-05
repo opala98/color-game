@@ -1,0 +1,61 @@
+body{
+    background-image:linear-gradient(to bottom, rgb(244, 213, 253), rgb(249, 230, 253), rgb(244, 213, 253));
+    background-attachment: fixed;
+}
+
+main{
+    border: none;
+    background-color: rgb(249, 230, 253);
+    margin: 0 auto;
+    height: 100vh;
+}
+
+article{
+    padding-top: 10%;
+}
+
+table{
+    margin: 0 auto;
+}
+
+tr{
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+section{
+    height: 15vh;
+    border-radius: 100%;
+}
+
+#color{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 21pt;
+    margin-left: 40%;
+}
+
+@media only screen and (max-width: 1760px) {
+    [class*="col-"] {
+
+        width: 80%;
+    }
+
+    #color{
+        font-size: 30pt;
+    }
+
+}
+
+
+@media only screen and (max-width: 1113px) {
+    [class*="col-"] {
+
+        width: 98%;
+    }
+
+    #color{
+        font-size: 35pt;
+    }
+
+}
