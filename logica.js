@@ -22,7 +22,7 @@ var escolha = 'cor' + Math.floor(Math.random() * 10);
 
 var color = document.getElementById('color');
 
-while(escolha != '') {
+
 
 if(escolha == 'cor1'){
 color.innerHTML = cor1;
@@ -44,7 +44,7 @@ color.innerHTML = cor1;
     color.innerHTML = cor9;
 }
     
-} 
+
 
 function certo(id) {
 
