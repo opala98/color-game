@@ -18,11 +18,12 @@ document.getElementById('cor7').style.backgroundColor = cor7;
 document.getElementById('cor8').style.backgroundColor = cor8;
 document.getElementById('cor9').style.backgroundColor = cor9;
 
+do {
+    
 var escolha = 'cor' + Math.floor(Math.random() * 10);
-
 var color = document.getElementById('color');
-
-
+    
+} while (escolha != '') {
 
 if(escolha == 'cor1'){
 color.innerHTML = cor1;
@@ -42,6 +43,8 @@ color.innerHTML = cor1;
     color.innerHTML = cor8;
 } else if (escolha == 'cor9'){
     color.innerHTML = cor9;
+}
+
 }
     
 
